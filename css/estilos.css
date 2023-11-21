@@ -4,69 +4,85 @@
 }
 
 body {
-    background-color: #00000037;
-    padding: 10px 20px;
+    font-family: Arial, sans-serif, Helvetica;
+    background-color: rgb(255, 255, 255);
+    padding: 0px 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 header {
-    border-bottom: 5px solid white;
-    background-color: #000;
-    text-align: center;
-    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 20px 20px;
 }
 
 .metroclor {
-    border-bottom: 5px solid cyan;
-    background-color: #fff9
-    }
+    border: 0px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255)
+}
 
 .logo {
-    width: 150px;
+    display: flex;
+    border: 10px;
+    width: 75px;
 }
 
 .logosec {
-    width: 150px;
-    margin-top: 55px;
-    margin-bottom: 54px;
+    display: flex;    
+    width: 75px;
+    margin-top: 25px;
+    margin-bottom: 24px;
 }
 
-nav ul li {
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
     list-style: none;
     display: inline-block;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 a {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: orangered;
+    color: rgb(255, 69, 0);
 }
 
 .clor {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
-    color: blue;
+    color: rgb(0, 0, 255);
 }
 
 main {
-    margin: 20px;
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
     text-align: center;
     text-decoration: underline;
-    margin: 20px 0px;
+    margin: 0px 0px;
 }
 
 
 .edificio {
     height: 30vh;
     width: 100%;
-    background-color: black;
-    background-image: url(../img/construccion-edificio.jpg);
+    background-color: rgb(0, 0, 0);
+    background-image: url(/img/construccion-edificio.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -74,8 +90,8 @@ h1 {
 .durlock {
     height: 30vh;
     width: 100%;
-    background-color: black;
-    background-image: url(../img/placas-durlock.jpg);
+    background-color: rgb(0, 0, 0);
+    background-image: url(/img/placas-durlock.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -83,29 +99,45 @@ h1 {
 .piscinas {
     height: 30vh;
     width: 100%;
-    background-color: black;
-    background-image: url(../img/piscinas-fondo.jpg);
+    background-color: rgb(0, 0, 0);
+    background-image: url(/img/piscinas-fondo.jpg);
     background-size: cover;
     background-position: center;
 }
 
 footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    padding: 20px;
+    margin: 0px;
+    padding: 0px;
     border: 5px solid rgb(37, 37, 37);
     text-align: center;
 }
 
 .redes a{
     font-size: 30px;
-    color: orangered
+    color: rgb(255, 69, 0)
 }
 
 .redes-clor a{
     font-size: 30px;
-    color: blue
+    color: rgb(0, 0, 255)
+}
+
+form {
+    background-color: rgb(255, 102, 0);
+    height: 700;
+    width: 100;
+}
+
+fieldset {
+    display: grid;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255)
+}
+
+@media (max-width:700px){
+    header{
+    flex-direction: column;
+    }
 }
