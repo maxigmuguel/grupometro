@@ -82,7 +82,7 @@ h1 {
     height: 30vh;
     width: 100%;
     background-color: rgb(0, 0, 0);
-    background-image: url(/img/construccion-edificio.jpg);
+    background-image: url(../img/construccion-edificio.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -91,7 +91,7 @@ h1 {
     height: 30vh;
     width: 100%;
     background-color: rgb(0, 0, 0);
-    background-image: url(/img/placas-durlock.jpg);
+    background-image: url(../img/placas-durlock.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -100,7 +100,7 @@ h1 {
     height: 30vh;
     width: 100%;
     background-color: rgb(0, 0, 0);
-    background-image: url(/img/piscinas-fondo.jpg);
+    background-image: url(../img/piscinas-fondo.jpg);
     background-size: cover;
     background-position: center;
 }
